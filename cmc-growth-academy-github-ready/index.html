@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Growth Academy — Competence Management Consulting</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===================== HERO ===================== -->
+<div class="hero">
+  <div class="logo-mark">
+    <img src="images/logo.png" alt="Competence Management Consulting">
+  </div>
+  <div class="ga-badge">Learning &amp; Development</div>
+  <h1>The <span>Growth Academy</span></h1>
+  <p>Practical capability programs that help organizations grow their people, strengthen performance, and build lasting competence across commercial, leadership, execution, and digital domains.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="num">4</div><div class="lbl">Program Areas</div></div>
+    <div class="stat"><div class="num">20</div><div class="lbl">Training Programs</div></div>
+    <div class="stat"><div class="num">100%</div><div class="lbl">Customizable</div></div>
+  </div>
+</div>
+
+<!-- ===================== NAV ===================== -->
+<nav class="tab-nav">
+  <button class="tab-btn active" onclick="showSection('overview', this)">⊞ Overview</button>
+  <button class="tab-btn" onclick="showSection('commercial', this)">📈 Commercial Excellence</button>
+  <button class="tab-btn" onclick="showSection('leadership', this)">🤝 Leadership &amp; People</button>
+  <button class="tab-btn" onclick="showSection('execution', this)">🎯 Execution &amp; Performance</button>
+  <button class="tab-btn" onclick="showSection('digital', this)">🤖 AI &amp; Digital Fluency</button>
+  <button class="tab-btn" onclick="showSection('contact', this)">📞 Contact</button>
+</nav>
+
+<!-- ===================== OVERVIEW ===================== -->
+<div class="section visible" id="s-overview">
+  <div class="section-header">
+    <h2>Program areas</h2>
+    <p>Four interconnected domains that build the human and organizational capability needed for sustainable growth. Click any area to explore its programs.</p>
+  </div>
+  <div class="overview-grid">
+    <div class="ov-tile t-blue" onclick="showSection('commercial', document.querySelectorAll('.tab-btn')[1])">
+      <div class="ov-icon">📈</div>
+      <h3>Commercial Excellence</h3>
+      <p>Drive growth, strengthen customer relationships, and expand into new markets.</p>
+      <span class="ov-badge">6 programs</span>
+    </div>
+    <div class="ov-tile t-purple" onclick="showSection('leadership', document.querySelectorAll('.tab-btn')[2])">
+      <div class="ov-icon">🤝</div>
+      <h3>Leadership &amp; People Skills</h3>
+      <p>Build emotionally intelligent, people-centered leaders and collaborative teams.</p>
+      <span class="ov-badge">6 programs</span>
+    </div>
+    <div class="ov-tile t-green" onclick="showSection('execution', document.querySelectorAll('.tab-btn')[3])">
+      <div class="ov-icon">🎯</div>
+      <h3>Execution &amp; Performance</h3>
+      <p>Translate strategy into action with stronger systems and accountability.</p>
+      <span class="ov-badge">5 programs</span>
+    </div>
+    <div class="ov-tile t-amber" onclick="showSection('digital', document.querySelectorAll('.tab-btn')[4])">
+      <div class="ov-icon">🤖</div>
+      <h3>AI &amp; Digital Fluency</h3>
+      <p>Use AI tools responsibly to boost productivity, creativity, and decision-making.</p>
+      <span class="ov-badge">5 programs</span>
+    </div>
+  </div>
+  <div class="info-box">
+    <h3>Tailored to your organization</h3>
+    <p>Every program can be customized to your sector, organizational maturity, participant level, and strategic priorities. Programs can also be combined into customized learning journeys that support leadership development, commercial growth, and digital transformation.</p>
+    <div class="check-row">
+      <div class="check-item"><span class="chk">✓</span> Standalone programs</div>
+      <div class="check-item"><span class="chk">✓</span> Custom learning journeys</div>
+      <div class="check-item"><span class="chk">✓</span> Sector-specific delivery</div>
+      <div class="check-item"><span class="chk">✓</span> Interactive &amp; practical</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== COMMERCIAL EXCELLENCE ===================== -->
+<div class="section" id="s-commercial">
+  <div class="section-header">
+    <h2>Commercial Excellence</h2>
+    <p>Equip teams with the mindset, tools, and skills needed to drive growth, strengthen customer relationships, and expand into new markets.</p>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#185FA5"></div>
+      <div class="card-ico" style="background:#E6F1FB">🗺️</div>
+      <h3>Growth Strategy</h3>
+      <p>Identify growth opportunities and translate ambitions into clear priorities and action plans.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Analyze market opportunities and organizational readiness</li>
+        <li>Identify growth gaps, barriers, and strategic priorities</li>
+        <li>Develop practical growth initiatives aligned with business goals</li>
+        <li>Translate strategic ideas into clear action plans</li>
+        <li>Improve decision-making around markets, customers, and resources</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#185FA5"></div>
+      <div class="card-ico" style="background:#E6F1FB">💛</div>
+      <h3>Customer Centricity</h3>
+      <p>Adopt a customer-focused mindset and design better service experiences.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Understand customer needs, expectations, and pain points</li>
+        <li>Analyze key touchpoints and moments of truth</li>
+        <li>Improve communication and service behaviors</li>
+        <li>Strengthen customer satisfaction, loyalty, and retention</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#185FA5"></div>
+      <div class="card-ico" style="background:#E6F1FB">💬</div>
+      <h3>Consultative Selling</h3>
+      <p>Sell through trust, insight, and value-based conversations rather than product pitches.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Shift from product-based to value-based selling</li>
+        <li>Ask structured and insightful sales questions</li>
+        <li>Build trust and credibility with potential clients</li>
+        <li>Handle objections professionally and confidently</li>
+        <li>Improve conversion rates and long-term relationships</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#185FA5"></div>
+      <div class="card-ico" style="background:#E6F1FB">📊</div>
+      <h3>Sales Management</h3>
+      <p>Lead sales teams, manage performance, and build a disciplined sales culture.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Set clear sales objectives, targets, and activity plans</li>
+        <li>Manage pipelines and customer opportunities effectively</li>
+        <li>Coach and guide sales team members</li>
+        <li>Identify performance gaps and take corrective action</li>
+        <li>Build a stronger and more disciplined sales culture</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#185FA5"></div>
+      <div class="card-ico" style="background:#E6F1FB">🌍</div>
+      <h3>Export Development</h3>
+      <p>Assess export readiness, identify markets, and build a practical export growth plan.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Assess the organization's export readiness</li>
+        <li>Identify and prioritize potential export markets</li>
+        <li>Develop stronger export value propositions</li>
+        <li>Improve preparation for buyer meetings and trade missions</li>
+        <li>Build a practical export action plan</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#185FA5"></div>
+      <div class="card-ico" style="background:#E6F1FB">📣</div>
+      <h3>Effective Marketing</h3>
+      <p>Design strategic, customer-focused marketing aligned with business growth objectives.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Define target segments and customer personas</li>
+        <li>Develop clear positioning and value propositions</li>
+        <li>Design more effective marketing messages and campaigns</li>
+        <li>Select suitable marketing channels based on objectives</li>
+        <li>Measure marketing effectiveness using relevant indicators</li>
+      </ul></div>
+    </div>
+
+  </div>
+  <div class="cta-bar">
+    <div><h3>Interested in Commercial Excellence training?</h3><p>Get in touch to discuss a program tailored to your team.</p></div>
+    <a href="#" onclick="showSection('contact', document.querySelectorAll('.tab-btn')[5]); return false;" class="cta-btn">Contact us →</a>
+  </div>
+</div>
+
+<!-- ===================== LEADERSHIP & PEOPLE ===================== -->
+<div class="section" id="s-leadership">
+  <div class="section-header">
+    <h2>Leadership &amp; People Skills</h2>
+    <p>Develop emotionally intelligent, self-aware, and people-centered leaders and team members who build trust, communicate well, and create collaborative cultures.</p>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#534AB7"></div>
+      <div class="card-ico" style="background:#EEEDFE">🧭</div>
+      <h3>3D – LPD</h3>
+      <p>Three-dimensional leadership personal development for self-awareness and people leadership.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Increase self-awareness and leadership maturity</li>
+        <li>Understand personal behavior patterns and their impact on others</li>
+        <li>Lead with more clarity, empathy, and intentionality</li>
+        <li>Support the development of others more effectively</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#534AB7"></div>
+      <div class="card-ico" style="background:#EEEDFE">🧠</div>
+      <h3>Emotional Intelligence</h3>
+      <p>Understand and manage emotions to build healthier relationships and stronger leadership.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Recognize personal emotional triggers and behavior patterns</li>
+        <li>Manage reactions in stressful or sensitive situations</li>
+        <li>Demonstrate empathy and better social awareness</li>
+        <li>Improve leadership, teamwork, and conflict management</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#534AB7"></div>
+      <div class="card-ico" style="background:#EEEDFE">🔗</div>
+      <h3>Relational Needs</h3>
+      <p>Understand core human needs that influence trust, motivation, and collaboration.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Recognize how unmet needs create tension or disengagement</li>
+        <li>Build trust and psychological safety within teams</li>
+        <li>Communicate with respect for people's emotional needs</li>
+        <li>Reduce unnecessary conflict and misunderstanding</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#534AB7"></div>
+      <div class="card-ico" style="background:#EEEDFE">💬</div>
+      <h3>Communication Skills</h3>
+      <p>Communicate clearly, confidently, and professionally across different workplace situations.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Listen actively and respond appropriately</li>
+        <li>Adapt communication style to different people and situations</li>
+        <li>Manage difficult conversations with professionalism</li>
+        <li>Strengthen influence through better communication habits</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#534AB7"></div>
+      <div class="card-ico" style="background:#EEEDFE">⚡</div>
+      <h3>Energy Management</h3>
+      <p>Manage physical, mental, and emotional energy to sustain productivity and well-being.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Identify personal energy drains and renewal practices</li>
+        <li>Improve focus, prioritization, and work discipline</li>
+        <li>Manage stress and pressure more effectively</li>
+        <li>Build healthier work habits and sustainable routines</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#534AB7"></div>
+      <div class="card-ico" style="background:#EEEDFE">🌐</div>
+      <h3>Team Building</h3>
+      <p>Strengthen trust, collaboration, and alignment to improve collective performance.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Understand different working and communication styles</li>
+        <li>Clarify shared goals and team expectations</li>
+        <li>Strengthen accountability and team ownership</li>
+        <li>Create a more positive and productive team environment</li>
+      </ul></div>
+    </div>
+
+  </div>
+  <div class="cta-bar">
+    <div><h3>Build stronger leaders and teams</h3><p>We'll design a program to fit your team's stage and goals.</p></div>
+    <a href="#" onclick="showSection('contact', document.querySelectorAll('.tab-btn')[5]); return false;" class="cta-btn">Contact us →</a>
+  </div>
+</div>
+
+<!-- ===================== EXECUTION & PERFORMANCE ===================== -->
+<div class="section" id="s-execution">
+  <div class="section-header">
+    <h2>Execution &amp; Performance</h2>
+    <p>Translate strategy into action through stronger systems, clearer accountability, and improved performance discipline.</p>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#3B6D11"></div>
+      <div class="card-ico" style="background:#EAF3DE">📏</div>
+      <h3>KPI &amp; Performance Systems</h3>
+      <p>Design and use KPIs that support accountability, improvement, and better decisions.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Differentiate between objectives, targets, and indicators</li>
+        <li>Develop practical and measurable KPIs</li>
+        <li>Align KPIs with departmental and organizational goals</li>
+        <li>Use performance data for improvement and accountability</li>
+        <li>Avoid common KPI design mistakes</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#3B6D11"></div>
+      <div class="card-ico" style="background:#EAF3DE">🏛️</div>
+      <h3>Governance</h3>
+      <p>Strengthen accountability, decision-making, and responsible organizational management.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Clarify roles, responsibilities, and authorities</li>
+        <li>Improve decision-making and accountability mechanisms</li>
+        <li>Strengthen transparency and organizational discipline</li>
+        <li>Identify governance gaps and improvement areas</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#3B6D11"></div>
+      <div class="card-ico" style="background:#EAF3DE">🧩</div>
+      <h3>Problem Solving &amp; Critical Thinking</h3>
+      <p>Analyze challenges, identify root causes, and make better decisions using structured tools.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Define problems clearly and accurately</li>
+        <li>Distinguish between symptoms and root causes</li>
+        <li>Evaluate alternatives based on evidence and impact</li>
+        <li>Reduce bias, assumptions, and emotional reactions</li>
+        <li>Make clearer and more confident decisions</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#3B6D11"></div>
+      <div class="card-ico" style="background:#EAF3DE">🌊</div>
+      <h3>Change &amp; Resilience</h3>
+      <p>Manage uncertainty, strengthen adaptability, and build resilience during transitions.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Understand the emotional and behavioral impact of change</li>
+        <li>Recognize common sources of resistance</li>
+        <li>Strengthen personal and team resilience</li>
+        <li>Maintain productivity and engagement during transitions</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#3B6D11"></div>
+      <div class="card-ico" style="background:#EAF3DE">🔄</div>
+      <h3>Continuous Improvement</h3>
+      <p>Build a mindset and capability for improving processes and enhancing performance over time.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Identify inefficiencies, bottlenecks, and recurring issues</li>
+        <li>Apply practical tools for small and sustainable improvements</li>
+        <li>Encourage team ownership of improvement actions</li>
+        <li>Contribute to a culture of learning and excellence</li>
+      </ul></div>
+    </div>
+
+  </div>
+  <div class="cta-bar">
+    <div><h3>Ready to improve execution and results?</h3><p>We can tailor a program that fits your performance challenges.</p></div>
+    <a href="#" onclick="showSection('contact', document.querySelectorAll('.tab-btn')[5]); return false;" class="cta-btn">Contact us →</a>
+  </div>
+</div>
+
+<!-- ===================== AI & DIGITAL FLUENCY ===================== -->
+<div class="section" id="s-digital">
+  <div class="section-header">
+    <h2>AI &amp; Digital Fluency</h2>
+    <p>Prepare employees and leaders to understand and use AI and digital tools responsibly, confidently, and productively in their daily work.</p>
+  </div>
+  <div class="cards-grid">
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#BA7517"></div>
+      <div class="card-ico" style="background:#FAEEDA">👁️</div>
+      <h3>AI Awareness</h3>
+      <p>Understand AI fundamentals, its opportunities, limitations, and relevance to your work.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Understand basic AI concepts and terminology</li>
+        <li>Recognize practical business use cases for AI</li>
+        <li>Identify the limitations and risks of AI tools</li>
+        <li>Build confidence in exploring AI responsibly</li>
+        <li>Develop a more informed and balanced view of AI adoption</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#BA7517"></div>
+      <div class="card-ico" style="background:#FAEEDA">⚡</div>
+      <h3>AI for Productivity</h3>
+      <p>Use AI tools to improve daily productivity, quality, creativity, and problem-solving.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Use AI tools to support daily work tasks</li>
+        <li>Improve writing, summarizing, planning, and analysis</li>
+        <li>Save time in repetitive or content-heavy activities</li>
+        <li>Identify productivity use cases relevant to your role</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#BA7517"></div>
+      <div class="card-ico" style="background:#FAEEDA">💻</div>
+      <h3>Prompt Engineering</h3>
+      <p>Write effective prompts that produce clearer, more accurate, and useful AI outputs.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Write clear, structured, and specific prompts</li>
+        <li>Use context, examples, and constraints to improve AI outputs</li>
+        <li>Refine AI responses through effective follow-up prompts</li>
+        <li>Apply prompt engineering techniques to real workplace tasks</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#BA7517"></div>
+      <div class="card-ico" style="background:#FAEEDA">🧰</div>
+      <h3>AI Toolkits</h3>
+      <p>Explore practical AI tools and workflows that support different business functions.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Identify AI tools relevant to your work</li>
+        <li>Build simple AI-supported workflows</li>
+        <li>Improve productivity across writing, research, and analysis</li>
+        <li>Select tools based on task needs, not trends</li>
+      </ul></div>
+    </div>
+
+    <div class="card" onclick="toggleCard(this)">
+      <div class="card-top" style="background:#BA7517"></div>
+      <div class="card-ico" style="background:#FAEEDA">🛡️</div>
+      <h3>AI Safety &amp; Privacy</h3>
+      <p>Use AI responsibly while protecting sensitive data and maintaining ethical standards.</p>
+      <div class="expand-hint">Click to see outcomes ↓</div>
+      <div class="card-detail"><ul>
+        <li>Protect confidential and sensitive information</li>
+        <li>Recognize issues related to accuracy, bias, and misinformation</li>
+        <li>Apply responsible AI usage principles</li>
+        <li>Support organizational readiness for AI adoption</li>
+      </ul></div>
+    </div>
+
+  </div>
+  <div class="cta-bar">
+    <div><h3>Prepare your team for the AI era</h3><p>From awareness to practical skills — we'll design the right journey.</p></div>
+    <a href="#" onclick="showSection('contact', document.querySelectorAll('.tab-btn')[5]); return false;" class="cta-btn">Contact us →</a>
+  </div>
+</div>
+
+<!-- ===================== CONTACT ===================== -->
+<div class="section" id="s-contact">
+  <div class="section-header">
+    <h2>Get in touch</h2>
+    <p>Reach out to our Training Unit to discuss the right program for your organization.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-card">
+      <div class="avatar">HN</div>
+      <div class="name">Hussam Daniel Nino</div>
+      <div class="title">Training Unit Supervisor</div>
+      <div class="contact-item">📞 <a href="tel:+96265811475">+962 6 581 1475</a></div>
+      <div class="contact-item">📱 <a href="tel:+962775205802">+962 77 520 5802</a></div>
+      <div class="contact-item">✉️ <a href="mailto:info@cmc-jo.com">info@cmc-jo.com</a></div>
+      <div class="contact-item">🌐 <a href="http://www.cmc-jo.com" target="_blank">www.cmc-jo.com</a></div>
+    </div>
+    <div class="dark-card">
+      <h3>Our location</h3>
+      <div class="ci"><span class="ci-dot">📍</span><div>Al Jazzar &amp; Al Naber Complex<br>Ibrahim Al Qattan St 21<br>Amman, Jordan</div></div>
+      <div class="ci"><span class="ci-dot">📞</span><div><a href="tel:+96265811475">+962 6 581 1475</a></div></div>
+      <div class="ci"><span class="ci-dot">📱</span><div><a href="tel:+962775205802">+962 77 520 5802</a></div></div>
+      <div class="ci"><span class="ci-dot">✉️</span><div><a href="mailto:info@cmc-jo.com">info@cmc-jo.com</a></div></div>
+      <div class="ci"><span class="ci-dot">🌐</span><div><a href="http://www.cmc-jo.com" target="_blank">www.cmc-jo.com</a></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <p>© 2026 <span>Competence Management Consulting</span> — Growth Academy. All rights reserved.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
